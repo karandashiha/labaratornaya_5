@@ -1,0 +1,59 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Raleway:wght@100&display=swap');
+
+body { 
+background-color:#fff;
+font-family: "Lato";
+font-weight: 300;
+font-size: 16px;
+color:#333;
+-webkit-font-smoothi:antialiased;
+-webkit-overflow-scrolling:touch;
+margin-top: 0px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Ralway";
+    font-weight: 300;
+    color: white;
+}
+
+p{line-height: 28px;
+margin-bottom: 25px;}
+.centered{text-align: center;}
+
+a{color: #f85c37;}
+
+a:hover, a:focus{color:#7b7b7b;
+text-decoration: none;
+outline: 0;}*/
+
+header,footer,section{
+    padding: 0 0;
+}
+
+header{background-color: #5b6169;
+color: white;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+.gradient{
+    color: transparent;    
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: linear-gradient(to bottom, white,white, gray);
+}
+:root{
+    --color1:#94d9f9;
+    --color2:#fff;
+}
+.header-blue{
+    background:var(--color1);
+    background: -moz-radial-gradient(center, ellipse cover,  var(--color1) 0%,var(--color2) 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, var(--color1) 0%,var(--color2) 100%);
+    background: radial-gradient(ellipse at center, var(--color1) 0%,var(--color2) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=var(--color1), endColorstr=var(--color2),GradientType=1 );
+    }
+/*.container{
+    background-color:#5b6169;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}*/
+
