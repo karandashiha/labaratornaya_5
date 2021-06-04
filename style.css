@@ -1,4 +1,4 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap');
 
 body { 
 background-color:#fff;
@@ -8,52 +8,180 @@ font-size: 16px;
 color:#333;
 -webkit-font-smoothi:antialiased;
 -webkit-overflow-scrolling:touch;
-margin-top: 0px;
+margin:40px 20px 60px;
 }
 
-h1,h2,h3,h4,h5,h6{
-    font-family: "Ralway";
-    font-weight: 300;
+/*============HEADER=================*/
+
+header{
+    padding: 10px;
+    background-color:#5b6169;
     color: white;
+    font-family:"Lato";
+    font-size: 16px;
 }
-
-p{line-height: 28px;
-margin-bottom: 25px;}
-.centered{text-align: center;}
-
-a{color: #f85c37;}
-
-a:hover, a:focus{color:#7b7b7b;
-text-decoration: none;
-outline: 0;}*/
-
-header,footer,section{
-    padding: 0 0;
-}
-
-header{background-color: #5b6169;
-color: white;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
 .gradient{
     color: transparent;    
 	-webkit-background-clip: text;
 	background-clip: text;
 	background-image: linear-gradient(to bottom, white,white, gray);
+    font-size: 20px;
 }
-:root{
-    --color1:#94d9f9;
-    --color2:#fff;
+.carousel-inner{
+    height:380px;
 }
-.header-blue{
-    background:var(--color1);
-    background: -moz-radial-gradient(center, ellipse cover,  var(--color1) 0%,var(--color2) 100%);
-    background: -webkit-radial-gradient(center, ellipse cover, var(--color1) 0%,var(--color2) 100%);
-    background: radial-gradient(ellipse at center, var(--color1) 0%,var(--color2) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=var(--color1), endColorstr=var(--color2),GradientType=1 );
-    }
-/*.container{
-    background-color:#5b6169;
+.carousel-inner img {
+    transform:translateY(-30);
+    width: 100%;
+    height: 100%;
+}
+.carousel-caption{
+    position:absolute;
+    top:10%;
+    left: 60%;
+    transform:translateY(-30);
+}
+p{
+    font-family:"Lato";
+    color:#5b6169;
+}
+   
+.btn-my-but1{
+    display:block;
+    max-width:200px;
+    margin: 0 auto;
+    padding: 8px 30px;
     color: white;
-    font-family: 'Courier New', Courier, monospace;
-}*/
+    background-color:#74abda;
+}
+.btn-my-but1:hover{
+    color: white;
+    background-color: #3674ba;
+}
+
+
+
+/*============OUR SERVICES=================*/
+section{padding: 0 300px ;}
+.sevices{
+    background-color:white; 
+    color:#5b6169;
+    text-align: center;
+    overflow: hidden;
+}
+
+.sevices h2{
+    display: inline-block;
+    position: relative;
+  }
+  
+  h2:before,
+  h2:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    height: 1px;
+    background:#5b6169;
+  }
+  
+  h2:before {
+    right: 100%;
+    left: -1000%;
+  }
+  
+  h2:after {
+    left: 100%;
+    right: -1000%;
+}
+.sevices img{
+    width:65px;
+    margin-left:40%;
+    margin-right:45%;
+    margin-bottom:2%;
+    margin-top:10%;
+}
+
+.text h5{
+    text-align:inherit;
+    color:#3674ba;
+    margin-top:0;
+}
+.text h6{
+    text-align:inherit;
+    color:#5b6169;
+    margin: -20px 0 0;
+}
+
+.btn-my-but2{
+    display:block;
+    max-width:150px;
+    margin: 20px auto;
+    padding: 8px 30px;
+    color: white;
+    background-color:#3674ba;
+}
+.btn-my-but2:hover{
+    color: white;
+    background-color:#74abda;
+}
+
+
+/*============ABOUT=================*/
+footer{padding:20px;}
+
+.about{
+    background-color:#d1d1d1;
+    color:#5b6169;
+    text-align: center;
+    overflow: hidden;
+}
+.about h2{
+    display: inline-block;
+    position: relative;
+  }
+  
+  h2:before,
+  h2:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    height: 1px;
+    background:#5b6169;
+  }
+  
+  h2:before {
+    right: 100%;
+    left: -1000%;
+  }
+  
+  h2:after {
+    left: 100%;
+    right: -1000%;
+}
+.text-left{
+    text-align:left;width:80%;
+    margin:30px 0 0 150px;
+}
+
+.maps{margin: 30px 150px 0 0;}
+
+.btn-my-but3{
+    display:block;
+    max-width:150px;
+    margin:0 0 0 390px;
+    padding: 8px 30px;
+    color: white;
+    background-color:#3674ba;
+}
+.btn-my-but3:hover{
+    color: white;
+    background-color:#74abda;
+}
+
+
+
+
+
+
+
 
