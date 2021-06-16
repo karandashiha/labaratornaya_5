@@ -1,23 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
 
 body { 
 background-color:#fff;
-font-family: "Lato";
+font-family: "Poppins";
 font-weight: 300;
 font-size: 16px;
 color:#333;
 -webkit-font-smoothi:antialiased;
 -webkit-overflow-scrolling:touch;
-margin:40px 20px 60px;
+margin:40px 20px 20px;
 }
 
-/*============HEADER=================   transform:translateY(-30);*/
-
+/*============HEADER================= */
 header{
     padding: 10px;
     background-color:#5b6169;
     color: white;
-    font-family:"Lato";
+    font-family:"Poppins";
     font-size: 16px;
 }
 .gradient{
@@ -31,21 +30,17 @@ header{
     height:380px;
 }
 .carousel-inner img {
- 
     width: 100%;
-    height: 100%;
+    height: 150%;
 }
+
 .carousel-caption{
     position:absolute;
     top:10%;
-    left: 60%;
-    transform:translateY(-30);
+    left:60%;
+    transform:translateY(-30);    
 }
-p{
-    font-family:"Lato";
-    color:#5b6169;
-}
-   
+
 .btn-my-but1{
     display:block;
     max-width:200px;
@@ -62,7 +57,7 @@ p{
 
 
 /*============OUR SERVICES=================*/
-section{padding: 0 300px;}
+section{padding: 0 200px;}
 .sevices{
     background-color:white; 
     color:#5b6169;
@@ -79,7 +74,7 @@ section{padding: 0 300px;}
   h2:after {
     content: '';
     position: absolute;
-    top: 50%;
+    top: 40%;
     height: 1px;
     background:#5b6169;
   }
@@ -93,12 +88,10 @@ section{padding: 0 300px;}
     left: 100%;
     right: -1000%;
 }
+
 .sevices img{
-    width:65px;
-    margin-left:40%;
-    margin-right:45%;
-    margin-bottom:2%;
-    margin-top:10%;
+    width:45%;
+    margin:10px 0 35px 0;
 }
 
 .text h5{
@@ -114,10 +107,10 @@ section{padding: 0 300px;}
 
 .btn-my-but2{
     display:block;
-    max-width:150px;margin-top: 10%;
-    margin-left: 25%;
-    margin-bottom: 30%;
-    padding: 8px 30px;
+    max-width:150px;
+  
+    margin:5px auto;
+    margin-bottom: 10%;
     color: white;
     background-color:#3674ba;
 }
@@ -127,8 +120,8 @@ section{padding: 0 300px;}
 }
 
 
+
 /*============ABOUT=================*/
-footer{padding:20px 20px 0 20px;}
 
 .about{
     background-color:#d1d1d1;
@@ -140,7 +133,7 @@ footer{padding:20px 20px 0 20px;}
     display: inline-block;
     position: relative;
   }
-  
+    
   h2:before,
   h2:after {
     content: '';
@@ -164,13 +157,12 @@ footer{padding:20px 20px 0 20px;}
     margin: 10px 20px 10px 0;
    
 }
-
-.maps{margin:0 150px 10px 0;}
-
+.maps{
+    width: 80%;margin-top:40px;}
 .btn-my-but3{
     display:block;
     max-width:150px;
-    margin:0 0 0 350px;
+    margin:0 0 0 420px;
     padding: 8px 30px;
     color: white;
     background-color:#3674ba;
@@ -179,4 +171,9 @@ footer{padding:20px 20px 0 20px;}
     color: white;
     background-color:#74abda;
 }
-
+.down {
+    height: 10px;
+    background: #ffff;
+    text-align: center;
+    margin-top:2%;
+}
